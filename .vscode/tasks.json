@@ -1,0 +1,16 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "shell",
+			"label": "Build and Run C executable",
+			"command": [
+				"make",
+				"./main",
+				"make clean"
+			],
+			"detail": "compiler: /usr/bin/gcc",
+			"problemMatcher": []
+		}
+	]
+}
