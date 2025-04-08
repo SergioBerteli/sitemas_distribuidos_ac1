@@ -57,12 +57,14 @@ int main(int argc, char *argv[])
 
         List * temp = lista_primos;
         int conta_primos= 0;
+        printf("[");
         while (temp->next != NULL)
         {
-            printf("%d\t", temp->value);
+            printf("%d, \t", temp->value);
             conta_primos++;
             temp = temp->next;
         }
+        printf("]");
         printf("\nPrimos encontrados: %d\n", conta_primos);
         
     } else // se executora
