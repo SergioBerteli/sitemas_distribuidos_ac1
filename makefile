@@ -1,4 +1,4 @@
-CXX = gcc
+CXX = gcc 
 CXXFLAGS = -Wall -Wextra 
 
 SRCS = main.c primos.c lista.c 

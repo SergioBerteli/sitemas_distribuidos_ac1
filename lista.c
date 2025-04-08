@@ -18,3 +18,13 @@ void adiciona_val(List * lista, int value)
         adiciona_val(lista->next, value);
     }
 }
+
+void mesclar (List * lista1, List * lista2)
+{
+    List * temp = lista2;
+    while (temp->next != NULL)
+    {
+        adiciona_val(lista1, temp->value);
+        temp = temp->next;
+    }
+}
